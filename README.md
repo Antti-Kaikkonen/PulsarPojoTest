@@ -15,6 +15,6 @@ mvn install
   --jar test-functions/PulsarPOJOFunction-1.0-SNAPSHOT-jar-with-dependencies.jar \
   --classname com.example.pulsartest.PojoFunction \
   --name pojo-function \
-  --inputs user \
-  --output user2
+  --inputs users \
+  --output users2
 ```
