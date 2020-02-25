@@ -7,7 +7,7 @@ mvn install
 
 ### 1 Create POJO source with avro encoding
 ```
-./pulsar-admin sources create --name pojo-source --destinationTopicName users --source-type pojo_source --schema-type 'avro'
+./bin/pulsar-admin sources create --name pojo-source --destinationTopicName users --source-type pojo_source --schema-type 'avro'
 ```
 ### 2 Create function
 ```
