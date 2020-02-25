@@ -1,0 +1,5 @@
+name: pojo_source
+tenant: public
+namespace: default
+description: A source connector for testing pulsar functions with POJO input
+sourceClass: com.example.pulsartest.PojoSource
