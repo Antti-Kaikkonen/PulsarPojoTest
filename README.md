@@ -12,7 +12,7 @@ mvn install
 ### 2 Create function
 ```
 ./bin/pulsar-admin functions create \
-  --jar blockchain-functions/PulsarPOJOFunction-1.0-SNAPSHOT-jar-with-dependencies.jar \
+  --jar test-functions/PulsarPOJOFunction-1.0-SNAPSHOT-jar-with-dependencies.jar \
   --classname com.example.pulsartest.PojoFunction \
   --name pojo-function \
   --inputs user \
